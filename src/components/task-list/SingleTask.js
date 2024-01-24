@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { IoCheckmarkDone } from "react-icons/io5";
-import { MdOutlineCancel } from "react-icons/md";
+import { FaCheck } from "react-icons/fa";
+import { RxCross1 } from "react-icons/rx";
 
 const SingleTask = ({ serialNo }) => {
 
@@ -13,7 +13,7 @@ const SingleTask = ({ serialNo }) => {
                 {
                     isTaskAdding ?
                         <div>
-                            <input className='w-40 h-9 px-2 border border-yellow-950 text-yellow-950 font-semibold' type='text' placeholder='type a task ..'></input>
+                            <input className='w-[175px] h-9 px-2 border border-yellow-950 text-yellow-950 font-semibold' type='text' placeholder='type a task ..'></input>
                         </div>
                         :
                         <p className='text-yellow-950'></p>
@@ -24,11 +24,11 @@ const SingleTask = ({ serialNo }) => {
                 {
                     isTaskAdding ?
                         <>
-                            <button onClick={() => { }} className='bg-green-900 text-white text-lg font-medium rounded-sm h-8 w-8 me-2 ps-2 hover:cursor-pointer'>
-                                <IoCheckmarkDone></IoCheckmarkDone>
+                            <button onClick={() => { }} className='text-green-100 bg-green-900 rounded-sm h-8 w-7 me-1 ps-[6px] hover:cursor-pointer'>
+                                <FaCheck></FaCheck>
                             </button>
-                            <button onClick={() => { }} className='bg-red-600 text-red-100 text-lg font-thin rounded-sm h-8 w-8 ps-[6px] hover:cursor-pointer'>
-                                <MdOutlineCancel></MdOutlineCancel>
+                            <button onClick={() => { }} className='bg-red-600 text-red-100 text-lg font-thin rounded-sm h-8 w-7 ps-1 hover:cursor-pointer'>
+                                <RxCross1></RxCross1>
                             </button>
                         </>
 
