@@ -8,7 +8,7 @@ const TaskList = () => {
         tasks.push(<SingleTask key={i} serialNo={i + 1} taskName={''}></SingleTask>);
     }
 
-    return <div className='w-full my-8'>
+    return <div className='w-full'>
         {tasks}
     </div>;
 };
