@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/simple-to-do-app-for-myself/static/css/main.cae3eb32.css",
-    "main.js": "/simple-to-do-app-for-myself/static/js/main.43a95c30.js",
+    "main.css": "/simple-to-do-app-for-myself/static/css/main.1aa850fb.css",
+    "main.js": "/simple-to-do-app-for-myself/static/js/main.375c6e65.js",
     "static/js/787.4f55606b.chunk.js": "/simple-to-do-app-for-myself/static/js/787.4f55606b.chunk.js",
     "static/media/bg.jpg": "/simple-to-do-app-for-myself/static/media/bg.91b99c2e83bf19d3229a.jpg",
     "index.html": "/simple-to-do-app-for-myself/index.html",
-    "main.cae3eb32.css.map": "/simple-to-do-app-for-myself/static/css/main.cae3eb32.css.map",
-    "main.43a95c30.js.map": "/simple-to-do-app-for-myself/static/js/main.43a95c30.js.map",
+    "main.1aa850fb.css.map": "/simple-to-do-app-for-myself/static/css/main.1aa850fb.css.map",
+    "main.375c6e65.js.map": "/simple-to-do-app-for-myself/static/js/main.375c6e65.js.map",
     "787.4f55606b.chunk.js.map": "/simple-to-do-app-for-myself/static/js/787.4f55606b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cae3eb32.css",
-    "static/js/main.43a95c30.js"
+    "static/css/main.1aa850fb.css",
+    "static/js/main.375c6e65.js"
   ]
 }
