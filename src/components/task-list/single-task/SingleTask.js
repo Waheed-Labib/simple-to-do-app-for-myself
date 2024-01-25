@@ -59,7 +59,7 @@ const SingleTask = ({ serialNo }) => {
                 <p className='bg-yellow-950 w-7 px-2 font-semibold text-yellow-500 rounded-sm'>{serialNo}</p>
                 {
                     taskName && !isTaskEditing &&
-                    <p className='text-yellow-950 text-xl font-semibold ms-2'>{taskName}</p>
+                    <p className='text-yellow-950 text-xl font-semibold ms-2 w-[175px]'>{taskName}</p>
                 }
 
                 {
@@ -81,13 +81,13 @@ const SingleTask = ({ serialNo }) => {
                                 taskStatus ?
                                     <p className={`${taskStatus === 'Completed' ? 'bg-green-900 text-green-100' : 'bg-red-900 text-red-100'} w-24 text-center py-1 rounded`}>{taskStatus}</p>
                                     :
-                                    <>
+                                    <div className='flex gap-[6px]'>
                                         <TaskSuccessButton setTaskStatus={setTaskStatus} ></TaskSuccessButton>
 
                                         <TaskEditButton setIsTaskEditing={setIsTaskEditing}></TaskEditButton>
 
                                         <TaskCancelButton setTaskStatus={setTaskStatus} ></TaskCancelButton>
-                                    </>
+                                    </div>
                             }
                         </>
                         :
