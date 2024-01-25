@@ -15,8 +15,9 @@ React, CSS, Tailwind
 1. Add Task
 2. Edit Task
 3. Set Task Status to "Completed" or "Canceled"
-4. Stored data to local storage
-5. Reset
+4. Set Time Schedule
+5. Stored data to local storage
+6. Reset
 
 # Live Site Link 
 
