@@ -4,7 +4,7 @@ Simple To-Do Application
 
 # Screenshot
 
-![app-ss](/src/assets/images/app-ss.png)
+![app-ss](/src/assets/images/app-screenshot.png)
 
 # Tech Stack
 
