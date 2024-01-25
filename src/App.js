@@ -7,7 +7,7 @@ import TaskList from './components/task-list/TaskList';
 function App() {
 
   return (
-    <div className='w-full h-[1000px] py-12 flex flex-col items-center justify-between relative App'>
+    <div className='w-full pt-12 flex flex-col items-center justify-between gap-12 App'>
       <div className='w-[300px] flex flex-col items-center'>
         <AppHeader></AppHeader>
         <ResetButton></ResetButton>
