@@ -23,8 +23,4 @@ React, CSS, Tailwind
 5. Stored data to local storage
 6. Reset
 
-# Issues
 
-1. The Reset Button handler uses window.location.reload(). This is not a good thing to do in react. 
-Solution : The taskList has to be kept as a state value. I will do it when I get free, as some minor complications may arise. 
-Or, if anybody is interested in contributing, can send me an email. 
