@@ -14,6 +14,7 @@ const ResetButton = () => {
         localStorage.removeItem('task-8')
         localStorage.removeItem('task-9')
         localStorage.removeItem('task-10')
+        localStorage.removeItem('schedule')
 
         window.location.reload()
     }
