@@ -111,11 +111,11 @@ const SingleTask = ({ serialNo }) => {
 
                             {
                                 isTaskEditing &&
-                                <>
+                                <div className='flex items-center gap-1'>
                                     <SubmitEditButton handleTaskEdit={handleTaskEdit}></SubmitEditButton>
 
                                     <CancelEditButton setIsTaskEditing={setIsTaskEditing}></CancelEditButton>
-                                </>
+                                </div>
                             }
                         </>
                 }
